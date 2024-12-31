@@ -130,4 +130,6 @@ In an HA deployment, the architecture introduces redundancy and scalability to e
 | **Resource Requirements**      | Minimal                           | High                               |
 | **Example Pods**               | `kafka-0`, `zookeeper-0`          | `kafka-[0, 1, 2]`, `zookeeper-[0, 1, 2]` |
 
-#### If you're planning to deploy SUSE Observability in a production environment, the HA setup is strongly recommended. It provides the necessary redundancy and fault tolerance to ensure that your observability platform remains operational even in the face of failures.
+
+####  
+If you're planning to deploy SUSE Observability in a production environment, the HA setup is strongly recommended. It provides the necessary redundancy and fault tolerance to ensure that your observability platform remains operational even in the face of failures.
