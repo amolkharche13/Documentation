@@ -34,7 +34,6 @@ suse-observability-prometheus-elasticsearch-exporter-765cd6w5sl   1/1     Runnin
 suse-observability-receiver-759754bb48-ttbg7                      1/1     Running   0               2d18h
 suse-observability-router-7cbfd778d9-hkckv                        1/1     Running   0               2d22h
 suse-observability-server-86f4649d4b-r82tp                        1/1     Running   0               2d18h
-suse-observability-topic-create-27t133331-n5wd9                   0/1     Pending   0               2d18h
 suse-observability-ui-56c7df6cd7-qlss2                            2/2     Running   0               2d22h
 suse-observability-victoria-metrics-0-0                           1/1     Running   0               2d22h
 suse-observability-vmagent-0                                      1/1     Running   0               2d22h
