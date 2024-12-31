@@ -15,7 +15,7 @@ In a Non-HA setup, all services are designed to run as single instances, making 
   - `suse-observability-elasticsearch-master-0`
   - `suse-observability-kafka-0`
   - `suse-observability-zookeeper-0`
-  - `suse-observability-ui-56c7df6cd7-qlss2`
+  - `suse-observability-ui-xxx`
 <details>
   <summary>Click to expand pods output in Non-HA setup</summary>
 
