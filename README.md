@@ -49,10 +49,10 @@ The HA profile includes multiple instances of critical components, enabling the 
 - **Elasticsearch:** Operates with three master nodes (`elasticsearch-master-0`, `elasticsearch-master-1`, `elasticsearch-master-2`) to maintain quorum.
 - **Kafka and Zookeeper:** Three replicas each, ensuring high throughput and resiliency.
 - **HBase and HDFS:** Includes multiple region servers, data nodes, and master nodes to distribute data and maintain uptime.
-- **suse-observability-server-xxxx** will be replaced by `suse-observability-notification-xxx`,`suse-observability-slicing-xxx` and `suse-observability-initializer-xxx` in HA setup.
+- suse-observability-server-xxxx will be replaced by `suse-observability-notification-xxx`,`suse-observability-slicing-xxx` and `suse-observability-initializer-xxx` in HA setup.
 - ** Other components are in HA, such as:
   - `suse-observability-health-sync`
-  - `suse-observability-receiver-logs`, `receiver-process-agent`, and `receiver-base` for better load segregation.
+  - `suse-observability-receiver-logs`, `suse-observability-receiver-process-agent`, and `suse-observability-receiver-base` for better load segregation.
 
 **Example pods in HA:**
 - `suse-observability-elasticsearch-master-[0, 1, 2]`
